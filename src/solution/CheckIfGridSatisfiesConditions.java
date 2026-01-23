@@ -1,4 +1,4 @@
-// 3142. Check if Grid Satisfies Conditions
+package src.solution;// 3142. Check if Grid Satisfies Conditions
 
 /*
     You are given a 2D matrix grid of size m x n. You need to check if each cell grid[i][j] is:
@@ -9,10 +9,6 @@
 */
 
 public class CheckIfGridSatisfiesConditions {
-    public static void main(String[] args) {
-
-    }
-
     public boolean satisfiesConditions(int[][] grid) {
         int row = grid.length;
         int col = grid[0].length;

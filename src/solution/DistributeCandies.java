@@ -1,4 +1,4 @@
-// 575. Distribute Candies
+package src.solution;// 575. Distribute Candies
 
 import java.util.HashSet;
 import java.util.Set;

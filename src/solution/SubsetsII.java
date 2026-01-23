@@ -1,4 +1,4 @@
-// 90. Subsets II
+package src.solution;// 90. Subsets II
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -18,11 +18,6 @@ import java.util.List;
     Output: [[],[0]]
  */
 public class SubsetsII {
-    public static void main(String[] args) {
-        List<List<Integer>> result = subsetsWithDup(new int[]{1, 2, 2});
-        System.out.println(result);
-    }
-
     public static List<List<Integer>> subsetsWithDup(int[] nums) {
         List<List<Integer>> res = new ArrayList<>();
         if (nums == null) return res;

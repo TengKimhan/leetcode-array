@@ -1,12 +1,8 @@
-// 2144. Minimum Cost of Buying Candies With Discount
+package src.solution;// 2144. Minimum Cost of Buying Candies With Discount
 
 import java.util.Arrays;
 
 public class MinimumCostOfBuyingCandiesWithDiscount {
-    public static void main(String[] args) {
-
-    }
-
     public int minimumCost(int[] cost) {
         int sum=0;
         int len=cost.length;

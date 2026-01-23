@@ -1,14 +1,8 @@
-// Solve 136. Single Number
+package src.solution;// Solve 136. Single Number
 
 import java.util.HashMap;
 
 public class SingleNumber {
-    public static void main(String[] args) {
-        // write the testcase here and run the program
-        int[] nums = {4,1,2,1,2};
-        System.out.println(singleNumber(nums));
-    }
-
     public static int singleNumber(int[] nums) {
         int result = 0;
         HashMap<Integer, Integer> dict = new HashMap<Integer, Integer>();

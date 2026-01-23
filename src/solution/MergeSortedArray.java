@@ -1,18 +1,6 @@
-// 88. Merge Sorted Array
+package src.solution;// 88. Merge Sorted Array
 
 public class MergeSortedArray {
-    public static void main(String[] args) {
-        // write the testcase here and run the program
-        int[] nums1 = {1,2,3,0,0,0};
-        int m = 3;
-        int[] nums2 = {2,5,6};
-        int n = 3;
-        merge(nums1, m, nums2, n);
-        for (int num : nums1) {
-            System.out.print(num + " ");
-        }
-    }
-
     public static void merge(int[] nums1, int m, int[] nums2, int n) {
         // [1,2,3,0,0,0], m = 3
         // [2,5,6], n = 3
